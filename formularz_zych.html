@@ -1,15 +1,110 @@
-<!Doctype HTML>
-<html lang="PL">
+<!DOCTYPE html>
+<html lang="pl-PL">
 <html>
+<head>
+	<meta charset="utf-8">
+	<title> ZADANIE FORMULARZ </title>
+</head>
+<body bgcolor="#B3FFFF">
+
+	<form enctype="text/plain" action="mailto:kremowki2137@vatykan.pap" subject="formularz_dane" method="Post">
 	
-		<head>
-		<meta charset="utf-8">
-		<title> formularz Zych </title>
-		</head>
+	<center> <h1> Formulaż Zych </h1> </center>
+		<TABLE>
 		
-		<body>
-		Tutaj będzie poczta <br>
-		<a href="index.html"> Wróć </a>
-		</body>
-	
+			<TR height="100">
+			
+				<TD width="500">
+					<input name="imie i nazwisko" size="22"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>Imię i Nazwisko</b><br><br>
+					<input name="numer tel" size="22">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>Numer Tel.</b><br><br>
+					<input name="numer szkoly" size="22">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>Numer Szkoły </b><br><br>
+					<select>
+						<option value="Technikum"> Technikum </option>
+						<option value="Liceum"> Liceum </option>
+					</select>
+					<font> <b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Technikum czy Liceum? </b> </font> <br> <br>
+				</TD>
+				
+				<TD width="450">
+					<font> <b> Na jakim kierunku jesteś? </b> </font> <br>
+					<select>
+						<option value="Elektronik"> Elektronik </option>
+						<option value="Elektryk"> Elektryk </option>
+						<option value="Energetyk"> Energetyk </option>
+						<option value="Informatyk"> Infotmatyk </option>
+						<option value="Energie odnawialne"> Eenergetyk Energii Odnawialnych</option>
+						<option value="Programista"> Programista </option>
+						<option value="zaden"> Żaden z wymienionych </option>
+					</select> 
+				</TD>
+				
+				<TD> 
+					<font> <b> Co masz zamiar robić po tyma jak skończysz szkołę? </b> </font> <br>
+					<input name="przyszłość" size="22">
+				</TD>
+				
+			</TR>
+			
+			<TR height="100">
+			
+				<TD>
+					<font> Uprawiasz Sport? </font> <br>
+						<input type="radio" name="Sport" value="Tak"> Tak <br>
+						<input type="radio" name="Sport" value="Nie"> Nie <br> <br>
+					
+					<font> <b> &nbsp &nbsp &nbsp OPCJONALNE </b> </font> <br>
+					<font> &nbsp &nbsp&nbsp Jaki sport uprawiasz </font> <br>
+						<input name="sport" size="18">
+					
+				</TD>
+				
+				<TD> 
+					<font> <b> Do jakiej klasy chodzisz? </b> </font> <br>
+					<select>
+						<option value="1"> 1 </option>
+						<option value="2"> 2 </option>
+						<option value="3"> 3 </option>
+						<option value="4"> 4 </option>
+						<option value="5"> 5 (technikum) </option>
+					</select>
+				</TD>
+				
+				<TD>
+					<font> <b> Masz plan na karierę? </b> </font> <br>
+						<input type="radio" name="kariera" value="Tak"> Tak <br>
+						<input type="radio" name="kariera" value="Nie"> Nie <br>
+				</TD>
+				
+			</TR>
+			
+			<TR height="100">
+			
+				<TD>
+				</TD>
+				
+				<TD> 
+					<font> <b> Czy brałeś udział w głosowaniu </b> </font> <br>
+					<input type="radio" name="vote" value="Tak"> Tak <br>
+					<input type="radio" name="vote" value="Nie"> Nie <br>
+				</TD>
+				
+				<TD>
+					<font> <b> Kim chciałbyś zostać w przyszłości? </b> </font> <br>
+					<input name="zawód" size="22"> <br>
+				</TD>
+				
+			</TR>
+			
+			<TR>
+			
+			<TD>
+				<input type="reset" value="Wyczyść dane">
+			</TD>
+			
+			</TR>
+			
+		</TABLE>
+	</form>
+	<a href="index.html"> Wróć </a>
+</body>
 </html>
